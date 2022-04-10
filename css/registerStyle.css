@@ -1,0 +1,134 @@
+body {
+  background-color: #BDBDBD;
+  justify-content: center;
+}
+
+* {box-sizing: border-box;}
+
+
+input[type=text],input[type=number],input[type=password]  {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+
+
+.container {
+  border-radius: 5px;
+  background-color: grey;
+  padding: 20px;
+  margin: 40px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+span{
+  color:#920000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+input[type="submit"],input[type="reset"]{
+  background-color: dimgray;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 8px;
+  cursor: pointer;
+  border-radius: 9px;
+  width:200px;
+}
+
+input[type="submit"]:hover{
+background-color: #666666;
+}
+
+input[type="submit"]:active{
+background-color: #666666;
+transform: translateY(4px);
+}
+
+input[type="reset"]:hover{
+background-color: #666666;
+}
+
+input[type="reset"]:active{
+background-color: #666666;
+transform: translateY(4px);
+}
+
+label {
+  font-weight: bold;
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.header {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+  
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.footer {
+  padding: 20px;
+  background: #C6C6C7;
+  margin-bottom: -15px;
+  margin-left: -15px;
+  margin-right: -17px;
+  margin-top: 4px;
+  
+}
+
+.footer img{
+    background-image: url('icon/icon3.png');
+    float: right;
+    margin-top: -40px;
+    padding: -20px;
+}
+
+.required label {
+    font-weight: bold;
+}
+.required label:after {
+    color: #DA0000;
+    content: ' *';
+    display:inline;
+}

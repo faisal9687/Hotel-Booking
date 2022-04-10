@@ -1,0 +1,27 @@
+body {
+  background-color: #BDBDBD;
+  justify-content: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  border-radius: 5px;
+  background-color: grey;
+  padding: 20px;
+  margin: 40px;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+h1{
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}

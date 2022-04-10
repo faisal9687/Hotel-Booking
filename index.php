@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <link rel="icon" type="image/x-icon" href="icon/icon3.png">
+    <link rel="stylesheet" type="text/css" href="css/HomeStyle.css">
+
+    <title>Home</title>
+
+
+</head>
+
+
+<body>
+
+
+
+    <div class="header">
+        <h1>Hotel Information System</h1>
+        <p>Welcome to the small web application</p>
+        <img src="icon/icon3.png" style="width: 60px; height: 60px; justify-items: flex-end;"/>
+        <h5 id="clock" style="  justify-items: flex-start; text-align: center;  "></h5>
+      </div>
+      
+      <div class="topnav">
+        <a class="active" href="index.php"><i class="fa fa-home"></i> Home</a>
+        <a href="register.php"><i class="fa fa-fw fa-user"></i></i> Register</a>
+        <a href="login.php"> <i class="fa fa-fw fa-user"></i> Login</a>
+        <a href="aboutMe.html"><i class='fas fa-user-graduate'></i>  About Onwer</a>
+      </div>
+
+
+      
+      <div class="row">
+        <div class="left" style="background-color:#bbb;">
+          <h2><i class="fa fa-bars"></i>  Menu</i></h2>
+          <input type="text" id="mySearch" onkeyup="myFunction()" placeholder="Search.." title="Type in a category">
+          <ul id="myMenu">
+            <li><a href="index.php">Home</a></li>
+            <li><a href="galleryPage.php" target="_blank"> Gallery</a></li>
+            <li><a href="worldClock.html" target="_blank"> World Clocks</a></li>
+            <li><a href="aboutHotel.html"target="_blank">About Hotel</a></li>
+            <li><a href="aboutMe.html"target="_blank">About Onwer</a></li>
+          </ul>
+        </div>
+        
+        <div class="right" style="background-color:#ddd;">
+        <h2>Royal hotel Information System</h2>
+        <h3>Hotel Trailer</h3>
+          <video width="400" height="300" controls > 
+        <source src="video/video.mp4" type="video/mp4">
+      </video>
+      <hr>
+            <p>Welcome to the royal hotel system</p>
+          <p>There are many services on the Hotel website, if you want more, please register on the website to see more.</p>
+          <p>Enjoy :)</p>
+
+         
+          
+        </div>
+      </div>
+      
+      
+      
+      <script src="js/script.js"></script>
+
+      <div class="footer">
+          <h4> Hotel Information System</h4>
+          <img src="icon/icon3.png" style="width: 50px; height: 50px; justify-items: right;"/>
+      </div>
+</body>
+</html>
